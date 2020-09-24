@@ -1,0 +1,17 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chetna",
+  "dependencies": {
+    "express": "^4.16.4",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0",
+    "nodemon": "^2.0.4"
+  },
+  "license": "ISC"
+}

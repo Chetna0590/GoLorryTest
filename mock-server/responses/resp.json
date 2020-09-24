@@ -1,0 +1,102 @@
+{
+    "/user":{
+        "name" : "Test User",
+        "location" : "Hyderabad",
+        "phone_number": "9999999999",
+        "email":"test@gmail.com"
+    },
+    "/orders":[
+        {
+            "order_no":"TEST-1234",
+            "origin": "HYD",
+            "destination":"CHN",
+            "booking_date": "23/09/2020 18:05:20",
+            "loading_date": "27/09/2020 10:00:00",
+            "materials": ["Iron Rods","Bricks"],
+            "weight": 2500,
+            "price": 10000
+        },
+        {
+            "order_no":"TEST-4567",
+            "origin": "CHN",
+            "destination":"HYD",
+            "booking_date": "23/09/2020 18:05:20",
+            "loading_date": "27/09/2020 10:00:00",
+            "materials": ["Sand","Bricks"],
+            "weight": 2000,
+            "price": 20000
+        }
+    ],
+    "/reports":[
+        {
+            "receipt_no": "Test03673",
+            "paid_date": "23/09/2020 15:30:29",
+            "amount":10000,
+            "paid_by": "TestUser",
+            "email": "testuser@gmail.com",
+            "orderno":"TEST-1234",
+            "origin": "HYD",
+            "destination":"CHN",
+            "payment_mode":"GPay"
+        },
+        {
+            "receipt_no": "Test03895",
+            "paid_date": "23/09/2020 16:30:29",
+            "amount":20000,
+            "paid_by": "TestUser1",
+            "email": "testuser1@gmail.com",
+            "orderno":"TEST-4567",
+            "origin": "CHN",
+            "destination":"HYD",
+            "payment_mode":"Paytm"
+        }
+    ],
+    "/trucks":[
+        {
+            "truck_no": "TR0SETF6789",
+            "status": "booked"
+        },
+        {
+            "truck_no": "TR0SETF5678",
+            "status": "available"
+        },
+        {
+            "truck_no": "TR0SETF3462",
+            "status": "booked"
+        },
+        {
+            "truck_no": "TR0SETF4589",
+            "status": "available"
+        }
+    ],
+    "/drivers":[
+        {
+            "driver":"Driver1",
+            "phone":"1111111111",
+            "email":"driver1@gmail.com",
+            "status":"onduty",
+            "license":"DL64795"
+        },
+        {
+            "driver":"Driver2",
+            "phone":"1111122222",
+            "email":"driver2@gmail.com",
+            "status":"available",
+            "license":"DL45678"
+        },
+        {
+            "driver":"Driver3",
+            "phone":"1111133333",
+            "email":"driver3@gmail.com",
+            "status":"onduty",
+            "license":"DL45235"
+        },
+        {
+            "driver":"Driver4",
+            "phone":"1111144444",
+            "email":"driver4@gmail.com",
+            "status":"available",
+            "license":"DL23456"
+        }
+    ]
+}
