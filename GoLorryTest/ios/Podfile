@@ -8,10 +8,6 @@ target 'GoLorryTest' do
 
   use_react_native!(:path => config["reactNativePath"])
 
-  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
-
-  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
-
   target 'GoLorryTestTests' do
     inherit! :complete
     # Pods for testing
