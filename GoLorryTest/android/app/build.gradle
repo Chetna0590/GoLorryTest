@@ -132,6 +132,7 @@ android {
         applicationId "com.golorrytest"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
+        multiDexEnabled true
         versionCode 1
         versionName "1.0"
     }
@@ -186,6 +187,8 @@ dependencies {
     implementation "com.facebook.react:react-native:+"  // From node_modules
 
     implementation project(':react-native-vector-icons')
+    
+    implementation 'com.android.support:multidex:1.0.3'
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
